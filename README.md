@@ -7,7 +7,7 @@ Setting Up Webpack with React
 * Webpack
 ## Ref
 * webpack.js.org/configuration
-## Commands to start
+## Steps
 * Create Package.json file: yarn initi -y
 * Add Dev Dependencies: yarn add -D webpack webpack-cli webpack-dev-server
 * Create /src folder and then index.html file in it and index.js
