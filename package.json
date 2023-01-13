@@ -1,0 +1,20 @@
+{
+  "name": "Webpack-React-Boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:johnsonsg/Webpack-React-Boilerplate.git",
+  "author": "Shawn Johnson <johnson.sg@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "watch": "webpack-dev-server --progress"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
