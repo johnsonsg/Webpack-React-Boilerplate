@@ -15,3 +15,6 @@ Setting Up Webpack with React
 * Add React and React-Dom: yarn add react react-dom
 * Then add Scripts to package.json and include "watch"
 ** "watch": "webpack-dev-server --progress"
+* Add Babel: yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader
+* Configure Babel
+* Test Watch: yarn watch

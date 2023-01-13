@@ -1,14 +1,16 @@
 const path = require("path");
 
 module.exports = {
+  mode: 'development',
   devServer: {
-    contentBase: path.resolve(__dirname, "./src"),
-    historyApiFallback: true
+    static: path.resolve(__dirname, "./src"),
+    historyApiFallback: true,
   },
   entry: path.resolve(__dirname, "./src/index.js"),
   module: {
     rules: [
       {
+        // test: /\.jsx$/,
         test: /\.js$/,
         use: "babel-loader"
       }
