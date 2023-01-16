@@ -12,6 +12,7 @@ Setting Up Webpack with React
 * AWS Codebuild only supports 8, 10, 12, 14, 16, currently. So when setting up pipeline make sure you support one of these versions.
 * Ref: https://docs.aws.amazon.com/codebuild/latest/userguide/runtime-versions.html
 * So make sure you are using a Node Version Manager to set your node to either of the list above when using your project, or install in buildspec and make sure your app works with this version.
+* CI/CD successfully complete.
 ## Steps
 * Create Package.json file: yarn initi -y
 * Add Dev Dependencies: yarn add -D webpack webpack-cli webpack-dev-server
