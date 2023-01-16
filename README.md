@@ -13,6 +13,10 @@ Setting Up Webpack with React
 * Ref: https://docs.aws.amazon.com/codebuild/latest/userguide/runtime-versions.html
 * So make sure you are using a Node Version Manager to set your node to either of the list above when using your project, or install in buildspec and make sure your app works with this version.
 * CI/CD successfully complete.
+
+## buildspec.yml config Specs using Unbuntu Linux
+* https://github.com/nodesource/distributions/blob/master/README.md#deb
+* https://classic.yarnpkg.com/en/docs/install#debian-stable
 ## Steps
 * Create Package.json file: yarn initi -y
 * Add Dev Dependencies: yarn add -D webpack webpack-cli webpack-dev-server
